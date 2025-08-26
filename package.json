@@ -1,0 +1,20 @@
+{
+  "name": "browser-agent",
+  "version": "1.0.0",
+  "description": "AI-powered browser automation agent using Puppeteer and Gemini AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.0",
+    "@google/generative-ai": "^0.2.1",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "keywords": ["automation", "browser", "ai", "puppeteer", "gemini"],
+  "author": "",
+  "license": "MIT"
+}
