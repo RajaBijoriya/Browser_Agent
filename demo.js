@@ -11,7 +11,7 @@ async function demonstrateAgent() {
         console.log('-----------------------------------------------------------');
         
         await agent.startBrowser();
-        await agent.navigateToUrl('https://ui.chaicode.com');
+        await agent.navigateToUrl('https://github.com/login');
         
         // Analyze what's actually on the page
         const analysis = await agent.analyzePageWithAI('Analyze this page for any authentication elements or describe what you see');
